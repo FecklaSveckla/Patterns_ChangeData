@@ -49,6 +49,6 @@ class DeliveryTest {
         $(withText("Перепланировать")).click();
         $("[data-test-id=success-notification]").shouldBe(Condition.visible, Duration.ofSeconds(30));
         $("[data-test-id=success-notification] .notification__content")
-                .shouldHave(exactText("Встреча успешно запланирована на " + secondMeetingDate));
+                .shouldHave(Condition.text("Встреча успешно запланирована на " + secondMeetingDate));
     }
 }

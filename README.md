@@ -1,7 +1,11 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/xb04b1y6svog9k38?svg=true)](https://ci.appveyor.com/project/FecklaSveckla/patterns-changedata)
 # Patterns_ChangeData
-Домашнее задание к занятию «2.3. Patterns»/Задача №1: заказ доставки карты (изменение даты)
+## Домашнее задание к занятию «2.3. Patterns»/Задача №1: заказ доставки карты (изменение даты)
 
+- время, затраченное на ручное тестирование (минут): 40;
+- время, затраченное на автоматизацию (минут): 500;
+
+### Условие
 Вам необходимо автоматизировать тестирование новой функции формы заказа доставки карты:
 
 ![image](https://user-images.githubusercontent.com/121516669/236628727-bb19769a-d056-4b95-bf14-7155d3a8f699.png)
